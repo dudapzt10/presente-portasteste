@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>salas</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- PARTÍCULAS -->
+  <div class="particles"></div>
+
+  <!-- TELA INICIAL -->
+  <section id="introScreen">
+
+    <div class="introText">
+
+      <h1>
+        se eu sou louca...
+      </h1>
+
+      <button id="enterBtn">
+        venha enlouquecer comigo
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- SALA -->
+  <section id="roomScreen">
+
+    <div class="room">
+
+      <!-- PORTA 1 -->
+      <div class="door" data-poem="1">
+
+        <div class="doorLight"></div>
+
+        <span class="doorTitle">
+          quarta-feira
+        </span>
+
+      </div>
+
+      <!-- PORTA 2 -->
+      <div class="door" data-poem="2">
+
+        <div class="doorLight"></div>
+
+        <span class="doorTitle">
+          insônia
+        </span>
+
+      </div>
+
+      <!-- PORTA 3 -->
+      <div class="door" data-poem="3">
+
+        <div class="doorLight"></div>
+
+        <span class="doorTitle">
+          o que nunca disse
+        </span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TELA POEMA -->
+  <section id="poemScreen">
+
+    <div class="poemBackground"></div>
+
+    <div class="poemContainer">
+
+      <pre id="poemText"></pre>
+
+      <button id="backBtn">
+        voltar
+      </button>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
